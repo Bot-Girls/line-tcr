@@ -1015,8 +1015,8 @@ def bot(op):
             elif msg.text in ["Creator","creator"]:
                 msg.contentType = 13
                 cl.sendText(msg.to, "Created By: ѕρє¢ιαℓ αиιмє")
-                msg.contentMetadata = {'mid': 'Ue1e8325836db8da2877704b4b720b8e1'}
-                cl.sendMessage(msg)
+                msg . contentMetadata = { 'mid' : 'Ue1eu8ce1980c16ca98d68df6b6fce7f34818"}
+                cl . sendmessage ( msg )
             elif msg.text in ["Me"]:
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': msg.from_}
@@ -2068,7 +2068,7 @@ def bot(op):
 
                       cb += """{"S":"""+json.dumps(str(strt))+""","E":"""+json.dumps(str(akh))+""","M":"""+json.dumps(md)+"},"""
 
-                      strt = strt + int(500)
+                      strt = strt + int(7)
                       akh = akh + 1
                       cb2 += "@nrik \n"
 
